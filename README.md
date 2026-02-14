@@ -244,6 +244,15 @@ The public interface represents an analytical layer over a deterministic harmoni
 
 ---
 
+## Recognition
+
+A related module in the Reharmonization Maps ecosystem, **RM Song Generator**, was selected as a **semifinalist entry** in the **AI Song Contest 2025**:
+
+🔗 https://www.aisongcontest.com/participants-2025/blacksteel  
+🔗 https://github.com/Fabri-D/RM-Song-Generator
+
+---
+
 ## Author
 
 Fabricio Dante  
