@@ -253,6 +253,14 @@ A related module in the Reharmonization Maps ecosystem, **RM Song Generator**, w
 
 ---
 
+## Repository Scope
+
+This repository documents the public Reharmonization Maps platform.
+
+The core harmonic engine and production backend implementation are not included.
+
+---
+
 ## Author
 
 Fabricio Dante  
