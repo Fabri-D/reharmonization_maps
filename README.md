@@ -110,6 +110,8 @@ The Analyzer treats harmonic modulation as a topological navigation problem.
 
 Interactive 3D structural exploration of the harmonic graph.
 
+![Investigation](RM06investigation.jpg)
+
 Investigation extends the modal compatibility network into a spatial embedding that allows structural, regional, and directional analysis.
 
 Core elements:
