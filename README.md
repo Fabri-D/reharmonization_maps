@@ -106,7 +106,61 @@ The Analyzer treats harmonic modulation as a topological navigation problem.
 
 ---
 
-### 3.3 Harmonic Heatmap
+### 3.3 Investigation (3D Embedding & Dynamic Simulation)
+
+Interactive 3D structural exploration of the harmonic graph.
+
+Investigation extends the modal compatibility network into a spatial embedding that allows structural, regional, and directional analysis.
+
+Core elements:
+
+- 3D point cloud representing modal nodes  
+- Curved directional arcs (quadratic Bezier paths)  
+- Animated pulses to visualize transition flow  
+- Inspector panels for node, cluster, and corridor metadata  
+
+#### Community Structure
+
+Modal communities are detected using **Louvain modularity optimization**, partitioning the harmonic graph into densely interconnected macro-regions.
+
+Each cluster can be inspected for:
+
+- Size and internal density  
+- Dominant parent scale families  
+- Internal hub nodes  
+- Strongest outgoing bridge edges  
+
+Clusters reflect high-modularity partitions of the compatibility graph rather than arbitrary grouping.
+
+#### Exploration Modes
+
+Investigation supports multiple structural perspectives:
+
+- **Structural mode** – local neighborhood expansion  
+- **Flow mode** – cluster-to-cluster corridors  
+- **Bridges mode** – high-interconnectivity mediators  
+- **Clusters mode** – macro-regional inspection  
+
+#### Simulation Mode
+
+A seeded traversal engine allows dynamic path exploration across the harmonic network.
+
+Features:
+
+- Step-by-step or continuous autoplay  
+- Seeded reproducibility  
+- Weighted vs. uniform transition selection  
+- Optional backtracking avoidance  
+- Directionally animated arc pulses  
+- Trail memory visualization  
+
+The simulation operates over the same deterministic compatibility graph used by the Analyzer and Song Generator.
+
+Investigation transforms the modal topology into a navigable structural field.
+
+---
+
+### 3.4 Harmonic Heatmap
 
 Subdomain: https://heatmap.reharmonizationmaps.com
 
@@ -126,7 +180,7 @@ The heatmap provides a matrix-based analytical perspective of the compatibility 
 
 ---
 
-### 3.4 How It Works
+### 3.5 How It Works
 
 ![How It Works](RM04howitworks.jpg)
 
@@ -163,7 +217,7 @@ The system therefore operates as a deterministic generative framework grounded i
 
 ---
 
-### 3.5 Song Generator
+### 3.6 Song Generator
 
 ![Song Generator](RM05songgenerator.jpg)
 
